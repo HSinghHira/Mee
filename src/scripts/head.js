@@ -1,0 +1,1 @@
+mobilecheck()&&$("<link/>",{media:"all",rel:"stylesheet",type:"text/css",href:"assets/styles/mobile.css"}).appendTo("head"),document.getElementById("year").innerHTML=(new Date).getFullYear();
