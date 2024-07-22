@@ -91,6 +91,164 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch((e) => { });
     });
 
+    imgr=new Array();
+    imgr[0]="http://3.bp.blogspot.com/-zP87C2q9yog/UVopoHY30SI/AAAAAAAAE5k/AIyPvrpGLn8/s1600/picture_not_available.png";
+    showRandomImg=true;
+
+  function HSH_Widget(json) {
+  j = (showRandomImg) ? Math.floor((imgr.length + 1) * Math.random()) : 0;
+  img = new Array();
+  if (6 <= json.feed.entry.length) {
+      maxpost = 6
+  } else {
+      maxpost = json.feed.entry.length
+  }
+  for (var i = 0; i < maxpost; i++) {
+      var entry = json.feed.entry[i];
+      var posttitle = entry.title.$t.substring(0, 30) + '...';
+      var pcm;
+      var posturl;
+      if (i == json.feed.entry.length) break;
+      for (var k = 0; k < entry.link.length; k++) {
+          if (entry.link[k].rel == 'alternate') {
+              posturl = entry.link[k].href;
+              break
+          }
+      }
+      for (var k = 0; k < entry.link.length; k++) {
+          if (entry.link[k].rel == 'replies' && entry.link[k].type == 'text/html') {
+              pcm = entry.link[k].title.split(" ")[0];
+              break
+          }
+      }
+      if ("content" in entry) {
+          var postcontent = entry.content.$t
+      } else if ("summary" in entry) {
+          var postcontent = entry.summary.$t
+      } else var postcontent = "";
+      postdate = entry.published.$t;
+      if (j > imgr.length - 1) j = 0;
+      img[i] = "";
+      s = postcontent;
+      a = s.indexOf("<img");
+      b = s.indexOf("src=\"", a);
+      c = s.indexOf("\"", b + 5);
+      d = s.substr(b + 5, c - b - 5);
+      if ((a != -1) && (b != -1) && (c != -1) && (d != "")) {
+          if (i == 0) {
+              img[i] = d;
+          } else {
+              img[i] = d;
+          }
+      }
+      var trtd = '<div class="column"><a href="' + posturl + '"><img class="column_img" src="' + img[i] + '" width="250px"></a><h7><a href="' + posturl + '">' + posttitle + '</a></h7></div>';
+      document.write(trtd)       
+      j++
+  }
+}
+
+      
+    var currentPage = 1;
+
+    function hsinghhira(e) {
+        console.log('Callback function triggered');
+        if (!e || !e.feed || !e.feed.entry) {
+            console.error('Invalid feed data');
+            return;
+        }
+    
+        var t = document.getElementById("content");
+        t.innerHTML = "";
+    
+        for (var n = 0; n < e.feed.entry.length; n++) {
+            if (n >= 5 * (currentPage - 1) && n < 5 * currentPage) {
+                var o = "";
+                for (var a = 0; a < e.feed.entry[n].link.length; a++) {
+                    if ("alternate" === e.feed.entry[n].link[a].rel) {
+                        o = e.feed.entry[n].link[a].href;
+                        break;
+                    }
+                }
+    
+                var r = "";
+                var content = e.feed.entry[n].content.$t;
+                if (content.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/)) {
+                    var l = content.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/).pop();
+                    if (l.length === 11) r = "//img.youtube.com/vi/" + l + "/0.jpg";
+                } else if (e.feed.entry[n].media$thumbnail) {
+                    r = e.feed.entry[n].media$thumbnail.url.replace("/s72-w640-h312-c/", "/s500/");
+                } else if (content.match(/src="(.+?\.(jpg|gif|png))"/)) {
+                    r = content.match(/src="(.+?\.(jpg|gif|png))"/)[1];
+                } else {
+                    r = "https://github.com/hsinghhira.png";
+                }
+    
+                var d = (content || "")
+                    .replace(/(<([^>]+)>)/gi, "")
+                    .substring(0, 100) + "...";
+    
+                var s = `
+                  <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40" href="${o}">
+                      <div class="aspect-w-16 aspect-h-11">
+                          <img class="w-full object-cover rounded-xl" src="${r}" alt="${e.feed.entry[n].title.$t}">
+                      </div>
+                      <div class="my-6">
+                          <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
+                              ${e.feed.entry[n].title.$t}
+                          </h3>
+                          <p class="mt-5 text-gray-600 dark:text-neutral-400">
+                              ${d}
+                          </p>
+                      </div>
+                      <div class="mt-auto flex items-center gap-x-3">
+                          <img class="size-8 rounded-full" src="https://github.com/hsinghhira.png?size=200" alt="Harman Singh Hira">
+                          <div>
+                              <h5 class="text-sm text-gray-800 dark:text-neutral-200">By Harman Singh Hira</h5>
+                          </div>
+                      </div>
+                  </a>
+                `;
+    
+                var c = document.createElement("div");
+                c.innerHTML = s;
+                t.appendChild(c);
+            }
+        }
+    
+        var m = document.getElementById("nextPageLink");
+        if (5 * currentPage < e.feed.entry.length) {
+            m.style.display = "";
+        } else {
+            m.style.display = "none";
+        }
+    }
+    
+    function loadNextPage() {
+        currentPage++;
+        loadPosts();
+    }
+    
+    function loadPosts() {
+        console.log('Loading posts for page', currentPage);
+        var script = document.createElement("script");
+        script.src = "https://me.hsinghhira.me/feeds/posts/default/-/Project/?max-results=600&alt=json-in-script&callback=hsinghhira";
+        script.onerror = function() {
+            console.error('Failed to load script');
+        };
+        document.body.appendChild(script);
+    }
+    
+    window.onpopstate = function (e) {
+        currentPage = e.state && e.state.page ? e.state.page : 1;
+        loadPosts();
+    };
+    
+    currentPage = 1;
+    loadPosts();
+    
+
+
+
 var themeToggleBtn,
     themeToggleDarkIcon = document.getElementById("theme-toggle-dark-icon"),
     themeToggleLightIcon = document.getElementById("theme-toggle-light-icon");
@@ -142,87 +300,3 @@ var themeToggleBtn,
                             localStorage.setItem("color-theme", "dark"));
         }
     );
-
-    var currentPage = 1;
-
-function hsinghhira(e) {
-    var t = document.getElementById("content");
-    t.innerHTML = "";
-
-    for (var n = 0; n < e.feed.entry.length; n++) {
-        if (n >= 5 * (currentPage - 1) && n < 5 * currentPage) {
-            for (var o = "", a = 0; a < e.feed.entry[n].link.length; a++) {
-                if ("alternate" === e.feed.entry[n].link[a].rel) {
-                    o = e.feed.entry[n].link[a].href;
-                    break;
-                }
-            }
-
-            var r = "";
-            if (e.feed.entry[n].content.$t.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/)) {
-                var l = e.feed.entry[n].content.$t
-                    .match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/)
-                    .pop();
-                if (l.length === 11) r = "//img.youtube.com/vi/" + l + "/0.jpg";
-            } else if (e.feed.entry[n].media$thumbnail) {
-                r = e.feed.entry[n].media$thumbnail.url.replace("/s72-w640-h312-c/", "/s500/");
-            } else if (e.feed.entry[n].content.$t.match(/src="(.+?\.(jpg|gif|png))"/)) {
-                r = e.feed.entry[n].content.$t.match(/src="(.+?\.(jpg|gif|png))"/)[1];
-            } else {
-                r = "https://github.com/hsinghhira.png";
-            }
-
-            var d = (e.feed.entry[n].content.$t || "")
-                .replace(/(<([^>]+)>)/gi, "")
-                .substring(0, 100) + "...";
-
-            var s = `
-              <a class="group flex flex-col h-full border border-gray-200 hover:border-transparent hover:shadow-lg transition-all duration-300 rounded-xl p-5 dark:border-neutral-700 dark:hover:border-transparent dark:hover:shadow-black/40" href="${o}">
-                  <div class="aspect-w-16 aspect-h-11">
-                      <img class="w-full object-cover rounded-xl" src="${r}" alt="${e.feed.entry[n].title.$t}">
-                  </div>
-                  <div class="my-6">
-                      <h3 class="text-xl font-semibold text-gray-800 dark:text-neutral-300 dark:group-hover:text-white">
-                          ${e.feed.entry[n].title.$t}
-                      </h3>
-                      <p class="mt-5 text-gray-600 dark:text-neutral-400">
-                          ${d}
-                      </p>
-                  </div>
-                  <div class="mt-auto flex items-center gap-x-3">
-                      <img class="size-8 rounded-full" src="https://github.com/hsinghhira.png?size=200" alt="Harman Singh Hira">
-                      <div>
-                          <h5 class="text-sm text-gray-800 dark:text-neutral-200">By Harman Singh Hira</h5>
-                      </div>
-                  </div>
-              </a>
-            `;
-
-            var c = document.createElement("div");
-            c.innerHTML = s;
-            t.appendChild(c);
-        }
-    }
-
-    var m = document.getElementById("nextPageLink");
-    5 * currentPage < e.feed.entry.length ? (m.style.display = "") : (m.style.display = "none");
-}
-
-function loadNextPage() {
-    currentPage++;
-    loadPosts();
-}
-
-function loadPosts() {
-    var e = document.createElement("script");
-    e.src = "https://me.hsinghhira.me/feeds/posts/default/-/Project/?max-results=600&alt=json-in-script&callback=hsinghhira";
-    document.body.appendChild(e);
-}
-
-window.onpopstate = function (e) {
-    currentPage = e.state && e.state.page ? e.state.page : 1;
-    loadPosts();
-};
-
-currentPage = 1;
-loadPosts();
