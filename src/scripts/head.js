@@ -1,1 +1,1 @@
-mobilecheck()&&$("<link/>",{media:"all",rel:"stylesheet",type:"text/css",href:"assets/styles/mobile.css"}).appendTo("head"),document.getElementById("year").innerHTML=(new Date).getFullYear();
+function CopyLink(){const e=window.location.href;navigator.clipboard.writeText(e).then((()=>{})).catch((e=>{}))}mobilecheck()&&$("<link/>",{media:"all",rel:"stylesheet",type:"text/css",href:"assets/styles/mobile.css"}).appendTo("head"),document.getElementById("year").innerHTML=(new Date).getFullYear();
