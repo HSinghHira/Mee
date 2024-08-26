@@ -1,0 +1,631 @@
+{
+    "version": "1.0",
+    "encoding": "UTF-8",
+    "feed": {
+        "xmlns": "http://www.w3.org/2005/Atom",
+        "xmlns$openSearch": "http://a9.com/-/spec/opensearchrss/1.0/",
+        "xmlns$blogger": "http://schemas.google.com/blogger/2008",
+        "xmlns$georss": "http://www.georss.org/georss",
+        "xmlns$gd": "http://schemas.google.com/g/2005",
+        "xmlns$thr": "http://purl.org/syndication/thread/1.0",
+        "id": {
+            "$t": "tag:blogger.com,1999:blog-6428958383452564318"
+        },
+        "updated": {
+            "$t": "2024-08-02T21:25:04.265+12:00"
+        },
+        "category": [
+            {
+                "term": "Project"
+            },
+            {
+                "term": "JavaScript"
+            },
+            {
+                "term": "Microsoft Excel"
+            },
+            {
+                "term": "PHP"
+            },
+            {
+                "term": "Software Development"
+            },
+            {
+                "term": "Visual Studio"
+            },
+            {
+                "term": "iOS Shortcut"
+            }
+        ],
+        "title": {
+            "type": "text",
+            "$t": "Harman Singh Hira"
+        },
+        "subtitle": {
+            "type": "html",
+            "$t": ""
+        },
+        "link": [
+            {
+                "rel": "http://schemas.google.com/g/2005#feed",
+                "type": "application/atom+xml",
+                "href": "https://me.hsinghhira.me/feeds/posts/default"
+            },
+            {
+                "rel": "self",
+                "type": "application/atom+xml",
+                "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/-/Project?alt=json&max-results=6"
+            },
+            {
+                "rel": "alternate",
+                "type": "text/html",
+                "href": "https://me.hsinghhira.me/search/label/Project"
+            },
+            {
+                "rel": "hub",
+                "href": "http://pubsubhubbub.appspot.com/"
+            }
+        ],
+        "author": [
+            {
+                "name": {
+                    "$t": "Harman Singh Hira"
+                },
+                "uri": {
+                    "$t": "http://www.blogger.com/profile/03704039914185139221"
+                },
+                "email": {
+                    "$t": "noreply@blogger.com"
+                },
+                "gd$image": {
+                    "rel": "http://schemas.google.com/g/2005#thumbnail",
+                    "width": "32",
+                    "height": "32",
+                    "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                }
+            }
+        ],
+        "generator": {
+            "version": "7.00",
+            "uri": "http://www.blogger.com",
+            "$t": "Blogger"
+        },
+        "openSearch$totalResults": {
+            "$t": "6"
+        },
+        "openSearch$startIndex": {
+            "$t": "1"
+        },
+        "openSearch$itemsPerPage": {
+            "$t": "6"
+        },
+        "entry": [
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-6206416749725190713"
+                },
+                "published": {
+                    "$t": "2024-07-27T21:49:00.000+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-27T21:49:40.755+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "iOS Shortcut"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Creating a Website for Apple's iOS Shortcuts"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<div style=\"clear: both; text-align: center;\"><a href=\"#\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"1065\" data-original-width=\"1586\" height=\"430\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgErcPxdGMDME2dwe9-E6Qq1sBRbCn7ijsYsgntxUrjfaX4PwGD-j1TMR3DAODuGW_xySAUHiLVjrfA3LR3rOLndUQIhAcrPDhYi2lRI8xxajzyMlDsT932TTjc9923pmNkUWn8sKSRy9CNAkjkCd5qovvOVgkMrN07Lh4169jxKSwWxBPctqNf-07LrYHQ/w640-h430/msedge_nxeNvXfeYl.png\" width=\"640\" /></a></div><p style=\"text-align: left;\">Hey there, tech enthusiasts! 📱 Today, I want to share with you another exciting story from my journey as a developer. This time, it's all about creating a static website using the powerful Google Custom Search script for searching Apple's iOS Shortcuts. So, buckle up and get ready to dive into the world of web development!&nbsp;</p><p style=\"text-align: left;\">When I embarked on this project, my goal was clear: to create a website with a simple design that would provide an efficient way to search for Apple's iOS Shortcuts. I opted for a straightforward design without delving too much into complex CSS. The result? A website that wasn't bad looking, but perhaps not the most visually striking. 😅</p><p>Creating this website turned out to be an incredibly easy project, thanks to the magic of Google Custom Search. All I had to do was add the iOS Shortcut directories' websites to the Google Custom Search dashboard, and voila! The script provided a seamless search experience for users on my webpage. It was a breeze! 💨</p><p>If you're curious to explore the website I created, you can click on the link below. Go ahead and give it a try! Who knows, you might discover some amazing iOS Shortcuts that will make your Apple device even more powerful and efficient. 🚀🔍</p><p>[link]https://ios.hsinghhira.me/[/link]📱✨</p><p>So, if you're in need of finding iOS Shortcuts or simply want to explore the world of Apple's shortcuts, feel free to check out the website. Happy searching, and may your Apple device become even more amazing with the power of iOS Shortcuts! 📱✨</p>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/6206416749725190713/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/creating-website-for-apples-ios.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/6206416749725190713"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/6206416749725190713"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/creating-website-for-apples-ios.html",
+                        "title": "Creating a Website for Apple's iOS Shortcuts"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgErcPxdGMDME2dwe9-E6Qq1sBRbCn7ijsYsgntxUrjfaX4PwGD-j1TMR3DAODuGW_xySAUHiLVjrfA3LR3rOLndUQIhAcrPDhYi2lRI8xxajzyMlDsT932TTjc9923pmNkUWn8sKSRy9CNAkjkCd5qovvOVgkMrN07Lh4169jxKSwWxBPctqNf-07LrYHQ/s72-w640-h430-c/msedge_nxeNvXfeYl.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            },
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-3235263059505070957"
+                },
+                "published": {
+                    "$t": "2024-07-26T17:08:00.000+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-26T17:08:37.206+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Software Development"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Visual Studio"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "Muerte KOD - All-in-One PUBG Mobile Software"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<p style=\"text-align: center;\"><a href=\"#\" imageanchor=\"1\"><img border=\"0\" data-original-height=\"622\" data-original-width=\"1007\" height=\"396\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2BrCYO8UpHPkinWfvlKH231RY8p0-QJeDNjhyphenhyphenNqANqaIwOpeoKvKREYg3B-i9wVOOp2waSQ0a6FmbEsEoW1w_c2PcXwoPspu89GsDPYbTKf909hEti92aTTdKU53m4oi6QHJ_ey3r3e6yD1CE7etsBExj0YK7EPjCboQPRbQ9_IY83w11JYHV4kRfg5TI/w640-h396/Muerte_KOD_FuPLOH4Lu9.png\" width=\"640\" /></a></p><p>Hey there, once again but this time for my fellow gamers! 🎮 Today, I want to share with you a thrilling story about a unique project I undertook called Muerte KOD. Brace yourself for a tale of intrigue, innovation, and a touch of darkness!&nbsp;</p><p>But First, What on Earth is Muerte KOD? 😯❓</p><p>I know, I know, the name might raise a few eyebrows. So, let me clarify: Muerte, which means \"death\" or \"murder\" in English, was a \"legal\" Windows software designed to enhance the gaming experience for the immensely popular game, PUBG Mobile. Now, before you call the authorities on me, let me assure you that the software itself didn't do anything wrong. It simply consisted of a collection of small tools aimed at helping players enjoy the game to the fullest. 😅🔧</p><p>[link]https://github.com/HSinghHira/MuerteKOD/releases[/link]</p><p>Creating Muerte KOD was both a challenge and an opportunity for me. It marked my first and, so far, my last venture into software development using Microsoft Visual Studio. I poured my heart and soul into this project, striving to provide as many useful features as possible for the gamers. 💪</p><p>I dedicated countless hours to refining the software, ensuring that it not only delivered the desired functionality but also boasted an improved visual design. After all, a visually appealing interface can truly elevate the gaming experience. 🚀🎨</p><p>Muerte KOD, with its name meaning \"death\" or \"murder\" in English, added an extra layer of intrigue to this exhilarating journey. Although the software aimed to enhance gameplay through various tools like MAC address spoofing, Defender Injector, Flush DNS, Advanced DNS Changer, HDD ID Changer, and more, it's important to note that it was all within the realm of legality. No rules were broken, I promise! 😉🔒</p><p>While Muerte KOD stands as my first and, for now, my last software endeavor using Microsoft Visual Studio, I cherish the experience and the knowledge gained along the way. It serves as a testament to the limitless possibilities that await us in the realm of game enhancement.</p><p>So, fellow gamers, keep exploring, keep innovating, and let's continue to push the boundaries of what we can achieve in the world! Game on! 🎮🌟</p>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/3235263059505070957/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/muerte-kod-all-in-one-pubg-mobile.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/3235263059505070957"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/3235263059505070957"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/muerte-kod-all-in-one-pubg-mobile.html",
+                        "title": "Muerte KOD - All-in-One PUBG Mobile Software"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2BrCYO8UpHPkinWfvlKH231RY8p0-QJeDNjhyphenhyphenNqANqaIwOpeoKvKREYg3B-i9wVOOp2waSQ0a6FmbEsEoW1w_c2PcXwoPspu89GsDPYbTKf909hEti92aTTdKU53m4oi6QHJ_ey3r3e6yD1CE7etsBExj0YK7EPjCboQPRbQ9_IY83w11JYHV4kRfg5TI/s72-w640-h396-c/Muerte_KOD_FuPLOH4Lu9.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            },
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-2323365823470000307"
+                },
+                "published": {
+                    "$t": "2024-07-24T19:34:00.003+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-24T19:34:49.040+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Microsoft Excel"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "My Excel Adventure at Domino's Pizza"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZQSoKjmmeTqmoSB6D94Ou0A317iXMIvZAK9sZPzXSDG4heSGvxm-3Mjvs3D2YMF27sF9GcfzGe_IBS0KecrvS0axk5OxJT98Yph0KfbB6C5ib7PIgOFiBxJFmq3PedMTQrunwvkOijekKeJnjwBWYKQNeKGSymwPdj2Mw7-fCT8DJqaGsD2MqRJNS1LUR/s1196/Screenshot%203.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"678\" data-original-width=\"1196\" height=\"362\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZQSoKjmmeTqmoSB6D94Ou0A317iXMIvZAK9sZPzXSDG4heSGvxm-3Mjvs3D2YMF27sF9GcfzGe_IBS0KecrvS0axk5OxJT98Yph0KfbB6C5ib7PIgOFiBxJFmq3PedMTQrunwvkOijekKeJnjwBWYKQNeKGSymwPdj2Mw7-fCT8DJqaGsD2MqRJNS1LUR/w640-h362/Screenshot%203.png\" width=\"640\" /></a></div><p style=\"text-align: left;\">Hey there, folks! 🍕 Today, I want to share with you an incredible story from my time working at Domino's Pizza. It all started with a simple task: putting dough tags on newly made dough batches. It was a crucial health and safety requirement, and I hope they still follow it. But little did I know that this experience would lead me down a rabbit hole of Excel wonders. 🎩💻</p><p style=\"text-align: left;\">One day, during a not-so-busy shift, I couldn't help but notice that the dough tags we were using weren't exactly visually appealing. You know, they lacked that wow factor. 🤔 So, when I got home, I decided to fire up Excel on my laptop to see if I could create better-looking tags. A quick Google search for inspiration, and voila! I had some good-looking tags ready to go. 🏷️🌟</p><p style=\"text-align: left;\">But then, it hit me. I would still have to manually enter all the details for each tag. 🙇‍♀️ Determined to find a solution, I hit the search button once again and stumbled upon the magnificent world of Macros and VBA (Visual Basic for Applications for full, I know fancy name 😑). 🚀</p><p style=\"text-align: left;\">With newfound knowledge, I started with a simple file. It was nothing fancy, just a basic automation to ease the manual data entry process. Little did I know that this was just the beginning of an exciting journey. Every step of the way, I continued to develop and improve my Excel project. 📈</p><p style=\"text-align: left;\">In the end, I created something truly remarkable. If you're curious to see the different versions I released, head over to the GitHub repository. Unfortunately, I must confess that I no longer remember the password for the VBA, so you won't be able to view the codes behind the magic. 🧙‍♂️</p><p style=\"text-align: left;\">[link]https://github.com/HSinghHira/Dominos-Pizza-Dough-Tagger/releases[/link]</p><p style=\"text-align: left;\">This project is a true testament to the wonders of Excel and VBA. Despite not remembering much about VBA or even how to perform simple calculations in Excel, I somehow managed to create this masterpiece. It's like a puzzle I solved without remembering how I did it. 🧩💡</p><p style=\"text-align: left;\">And guess what? If the need arises, I can create an even better Excel project than this one. Trust me, the possibilities are endless! 💪</p><p style=\"text-align: left;\">So there you have it, my extraordinary Excel adventure at Domino's Pizza. Who would have thought that a simple task like dough tags would lead me down the path of Excel wizardry? 🌟✨</p><p style=\"text-align: left;\">Never underestimate the power of a curious mind and the vast capabilities of Microsoft Excel. Remember, with a little creativity and the right tools, you can build a whole new software-like system right within Excel itself. 🚀💻</p><p style=\"text-align: left;\">Stay curious, keep exploring, and who knows what other wonders await us in the world of spreadsheets! 🌈📊</p>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/2323365823470000307/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/my-excel-adventure-at-dominos-pizza.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/2323365823470000307"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/2323365823470000307"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/my-excel-adventure-at-dominos-pizza.html",
+                        "title": "My Excel Adventure at Domino's Pizza"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZQSoKjmmeTqmoSB6D94Ou0A317iXMIvZAK9sZPzXSDG4heSGvxm-3Mjvs3D2YMF27sF9GcfzGe_IBS0KecrvS0axk5OxJT98Yph0KfbB6C5ib7PIgOFiBxJFmq3PedMTQrunwvkOijekKeJnjwBWYKQNeKGSymwPdj2Mw7-fCT8DJqaGsD2MqRJNS1LUR/s72-w640-h362-c/Screenshot%203.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            },
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-2152676068190094753"
+                },
+                "published": {
+                    "$t": "2024-07-24T18:05:00.007+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-24T18:09:47.287+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "JavaScript"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "AWS Cloud Practitioner Practice - Quiz - Make in JS"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<p>Hey there, fellow learners! 🌟 Today, I want to share with you an awesome AWS Cloud Practitioner Practice Quiz that I created while I was learning AWS Cloud Engineering. 🚀 It's not super fancy, but I made sure to keep it simple and easy to understand. Let's dive in and have some fun while testing our knowledge!</p>[link]https://quiz.hsinghhira.me/AWS-Cloud-Practitioner[/link]<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHk4YL0f3-fdMtHcZ1wvrDsdaJkJ4nqRbvvaurMuje87IVCiTOJDq1RbFk6BmTnGKQ1_R0-DAPHNHCR47HfPH4CiMwp1sKp4MojegO1DWq90J4FSXGObykyu3mt88k4PMD3aSlXtBsfwAE_azusG-T2zFZlGkEJOA1RFCOBzOclZgig9hZiGPVswJz9KyZ/s1161/Screenshot%202024-07-24%20174423.png\" imageanchor=\"1\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"810\" data-original-width=\"1161\" height=\"446\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHk4YL0f3-fdMtHcZ1wvrDsdaJkJ4nqRbvvaurMuje87IVCiTOJDq1RbFk6BmTnGKQ1_R0-DAPHNHCR47HfPH4CiMwp1sKp4MojegO1DWq90J4FSXGObykyu3mt88k4PMD3aSlXtBsfwAE_azusG-T2zFZlGkEJOA1RFCOBzOclZgig9hZiGPVswJz9KyZ/w640-h446/Screenshot%202024-07-24%20174423.png\" width=\"640\" /></a></div><p>This quiz may not have all the bells and whistles, but it has all the essential features you'd expect from any quiz website. 🎯 Here's what you can expect:</p><p><b>1. Colorful Feedback: </b>When you select a wrong answer, it will be highlighted in red, while the correct answer will be highlighted in green. 🟥🟩 This way, you'll know exactly where you went wrong and where you excelled.</p><p><b>2. Customizable Questions:</b> You can set the number of questions you want to tackle. 📝 Behind the scenes, you can add as many questions as you want, giving you the flexibility to challenge yourself at your own pace.</p><p><b>3. Randomized Questions: </b>Each time you take the quiz, it will present you with random questions and options. 🎲 This keeps things exciting and ensures that you never know what the next question will be. It's like a surprise every time!</p><p>To make this quiz possible, I used the power of JavaScript. 🚀 By leveraging JavaScript, I was able to create a dynamic experience for you, right on a static webpage. How cool is that? 💻</p><p>For the visual styling, I employed the popular CSS framework called Bootstrap v5.1.0. 🎨 This helped me quickly achieve a clean and professional look without spending too much time on the aesthetics. And of course, what's a quiz without some icons? I used the awesome Font Awesome Icons to give the quiz a touch of visual appeal. 🌟</p><p>I must admit, this quiz was a bit of a rush project. So, while I didn't spend a lot of time on its looks, I made sure it works perfectly and offers you plenty of options to enhance your learning experience. 📚</p><p>I hope you find this quiz both educational and enjoyable. Give it a try, challenge yourself, and let's see how well you know your AWS Cloud Practitioner knowledge! Remember, learning can be fun too! 🌈📚💡</p>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/2152676068190094753/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/aws-cloud-practitioner-practice-quiz.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/2152676068190094753"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/2152676068190094753"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/aws-cloud-practitioner-practice-quiz.html",
+                        "title": "AWS Cloud Practitioner Practice - Quiz - Make in JS"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHk4YL0f3-fdMtHcZ1wvrDsdaJkJ4nqRbvvaurMuje87IVCiTOJDq1RbFk6BmTnGKQ1_R0-DAPHNHCR47HfPH4CiMwp1sKp4MojegO1DWq90J4FSXGObykyu3mt88k4PMD3aSlXtBsfwAE_azusG-T2zFZlGkEJOA1RFCOBzOclZgig9hZiGPVswJz9KyZ/s72-w640-h446-c/Screenshot%202024-07-24%20174423.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            },
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-5763706885204902630"
+                },
+                "published": {
+                    "$t": "2024-07-22T19:42:00.004+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-24T16:48:08.377+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "PHP"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "The Time I made an Another Dekh Bhai Meme Creator"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<p>It's very funny but I made an another Dekh Bhai Meme Creator back in 2016. Back when I was in school and the time when Dekh Bhai memes were in trend in India, I made Dekh Bhai meme creator second time. You can read my previous blog post about the Dekh Bhai Meme Creator that I made in JavaScript. However, the difference was that this time I write the script in php language.&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-_ble5-Vok4fsE6AM-2j2veBx3mcyjYL5wicQvaE34G7IkqJ1xghq31Rd4_IRHPrD2XlQ09UyAQ0JMqVtazW5ksGOWmh0EnqBzPWkP6-3MIVYxyz-YFyl94q-EcYv2D2zEy4-5ZDsKnODKbaYm1XMIzK6aYpq2h-stM0f8k9hQ2Wp8rRoCQ7bY_Ssric/s1291/dekh-bhai-meme-creator.png\" style=\"margin-left: 1em; margin-right: 1em;\"><img border=\"0\" data-original-height=\"797\" data-original-width=\"1291\" height=\"396\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-_ble5-Vok4fsE6AM-2j2veBx3mcyjYL5wicQvaE34G7IkqJ1xghq31Rd4_IRHPrD2XlQ09UyAQ0JMqVtazW5ksGOWmh0EnqBzPWkP6-3MIVYxyz-YFyl94q-EcYv2D2zEy4-5ZDsKnODKbaYm1XMIzK6aYpq2h-stM0f8k9hQ2Wp8rRoCQ7bY_Ssric/w640-h396/dekh-bhai-meme-creator.png\" width=\"640\" /></a></div><p>It was a nice experience and once again I learned many new things about php language. There is no live link of this script, however you can check the script on Github.<br /></p><p>[link]https://github.com/HSinghHira/Dekh-Bhai-Meme-Creator/[/link]</p><iframe allow=\"clipboard-write\" frameborder=\"0\" scrolling=\"no\" src=\"https://emgithub.com/iframe.html?target=https%3A%2F%2Fgithub.com%2FHSinghHira%2FDekh-Bhai-Meme-Creator%2Fblob%2Fmain%2Findex.php&amp;style=default&amp;type=code&amp;showBorder=on&amp;showLineNumbers=on&amp;showFullPath=on&amp;showCopy=on&amp;fetchFromJsDelivr=on\" style=\"height: 6817px; width: 100%;\"></iframe>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/5763706885204902630/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/the-time-i-made-another-dekh-bhai-meme.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/5763706885204902630"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/5763706885204902630"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/the-time-i-made-another-dekh-bhai-meme.html",
+                        "title": "The Time I made an Another Dekh Bhai Meme Creator"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEip-_ble5-Vok4fsE6AM-2j2veBx3mcyjYL5wicQvaE34G7IkqJ1xghq31Rd4_IRHPrD2XlQ09UyAQ0JMqVtazW5ksGOWmh0EnqBzPWkP6-3MIVYxyz-YFyl94q-EcYv2D2zEy4-5ZDsKnODKbaYm1XMIzK6aYpq2h-stM0f8k9hQ2Wp8rRoCQ7bY_Ssric/s72-w640-h396-c/dekh-bhai-meme-creator.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            },
+            {
+                "id": {
+                    "$t": "tag:blogger.com,1999:blog-6428958383452564318.post-3776203020248180447"
+                },
+                "published": {
+                    "$t": "2024-07-21T18:33:00.019+12:00"
+                },
+                "updated": {
+                    "$t": "2024-07-24T16:47:55.169+12:00"
+                },
+                "category": [
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "JavaScript"
+                    },
+                    {
+                        "scheme": "http://www.blogger.com/atom/ns#",
+                        "term": "Project"
+                    }
+                ],
+                "title": {
+                    "type": "text",
+                    "$t": "The Time I made Dekh Bhai Meme Creator"
+                },
+                "content": {
+                    "type": "html",
+                    "$t": "<p>When I was learning JavaScript before moving to New Zealand, I decided to take on a small project. It was back in 2016, and \"Dekh Bhai\" memes were all the rage in India. The phrase \"Dekh Bhai\" means \"Look Brother\" in English. These memes originated from an Indian TV series called Dekh Bhai Dekh. I saw this project as a challenge and an opportunity to learn something new. Since I was still a beginner in JavaScript, it took me about a month to complete. The entire script was written using HTML, CSS, and JavaScript.</p><p>[link]https://git.hsinghhira.me/LookBro/[/link]</p><p><a href=\"#\" style=\"margin-left: 1em; margin-right: 1em; text-align: center;\"><img border=\"0\" data-original-height=\"911\" data-original-width=\"1871\" height=\"312\" src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAjPvbPa0iX5aoqHf19aFPTOjfTJiTgihgjkD2W3PDTXTFOLjYWorMaqOYSdi8ycb_m5C66B1XPMlB5apM73xG_MTow_iZe8e2p2x2hl0IKuYT1uxlpdp_QuxYVSs85_axufEGUfeDOMn1de3BqInsHE_tYAELi15nPXqS4NK-JC4g4GbwYb0A2syOin0H/w640-h312/dekh-bhai.png\" width=\"640\" /></a></p><div><p>For the framework, I chose to use Bootstrap. It was easier for me to work with since I had been using Bootstrap for most of my projects. Bootstrap is a very popular CSS framework that helps in developing websites that are responsive and mobile-friendly.</p><p>To further enhance and support the script, I also utilized Normalize.css by Nicolas Gallagher. This helped ensure consistent rendering across different browsers.</p><p>To create the text-to-image functionality, I relied on Fabric.js. Fabric.js is a powerful and user-friendly JavaScript HTML5 canvas library. It provides an interactive object model on top of the canvas element and even includes an SVG-to-canvas (and canvas-to-SVG) parser.</p><p>In order to change the color of the texts, I utilized Prism.js by Lea Verou. Prism.js is a lightweight and versatile syntax highlighter.</p><p>For the left-hand side characters selection box, I implemented nanoScroller by James F. nanoScroller.js is a jQuery plugin that simplifies the implementation of Mac OS X Lion-styled scrollbars.</p><p>To select colors, I used JSColor.js by Jan Odvarko. This lightweight JavaScript library made it easy to choose colors within the project.</p><p>Lastly, I incorporated socialShare.js by Ritesh Kumar, a deprecated jQuery plugin that used to provide more control over social sharing buttons. Unfortunately, the script is no longer available in 2024.</p><p>To support all the JavaScript mentioned above, I utilized jQuery v2.1.0.</p><p>The rest of the scripts were developed by me.</p></div>"
+                },
+                "link": [
+                    {
+                        "rel": "replies",
+                        "type": "application/atom+xml",
+                        "href": "https://me.hsinghhira.me/feeds/3776203020248180447/comments/default",
+                        "title": "Post Comments"
+                    },
+                    {
+                        "rel": "replies",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/the-time-i-made-dekh-bhai-meme-creator.html#comment-form",
+                        "title": "0 Comments"
+                    },
+                    {
+                        "rel": "edit",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/3776203020248180447"
+                    },
+                    {
+                        "rel": "self",
+                        "type": "application/atom+xml",
+                        "href": "https://www.blogger.com/feeds/6428958383452564318/posts/default/3776203020248180447"
+                    },
+                    {
+                        "rel": "alternate",
+                        "type": "text/html",
+                        "href": "https://me.hsinghhira.me/2024/07/the-time-i-made-dekh-bhai-meme-creator.html",
+                        "title": "The Time I made Dekh Bhai Meme Creator"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": {
+                            "$t": "Harman Singh Hira"
+                        },
+                        "uri": {
+                            "$t": "http://www.blogger.com/profile/03704039914185139221"
+                        },
+                        "email": {
+                            "$t": "noreply@blogger.com"
+                        },
+                        "gd$image": {
+                            "rel": "http://schemas.google.com/g/2005#thumbnail",
+                            "width": "32",
+                            "height": "32",
+                            "src": "//3.bp.blogspot.com/-7qHfBPA648M/ZqCwHtIGtUI/AAAAAAABBpY/Zyhk_81T49IMrRFHqMmkJIjwVP1EtbzVgCK4BGAYYCw/s113/hsinghhira.png"
+                        }
+                    }
+                ],
+                "media$thumbnail": {
+                    "xmlns$media": "http://search.yahoo.com/mrss/",
+                    "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAjPvbPa0iX5aoqHf19aFPTOjfTJiTgihgjkD2W3PDTXTFOLjYWorMaqOYSdi8ycb_m5C66B1XPMlB5apM73xG_MTow_iZe8e2p2x2hl0IKuYT1uxlpdp_QuxYVSs85_axufEGUfeDOMn1de3BqInsHE_tYAELi15nPXqS4NK-JC4g4GbwYb0A2syOin0H/s72-w640-h312-c/dekh-bhai.png",
+                    "height": "72",
+                    "width": "72"
+                },
+                "thr$total": {
+                    "$t": "0"
+                }
+            }
+        ]
+    }
+}
